@@ -11,7 +11,8 @@ const routes:Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent
   ],
   imports: [
     RouterModule.forRoot(

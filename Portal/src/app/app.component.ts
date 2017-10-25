@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavigationComponent } from './navigation/navigation.component'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'that cool thing';
+  title = 'Milo\'s playground';
 }
