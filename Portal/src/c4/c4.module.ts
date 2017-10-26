@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 
 import { C4MainModule } from './c4-main/c4-main.module'
 
-import { C4Component } from '../c4/c4.component'
+import { C4Component } from './components/c4.component'
 
 @NgModule({
   imports: [
