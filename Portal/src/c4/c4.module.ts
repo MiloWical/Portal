@@ -1,19 +1,26 @@
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { C4MainComponent } from '../c4/c4-main/c4-main.component'
+import { C4MainModule } from './c4-main/c4-main.module'
+
+import { C4Component } from '../c4/c4.component'
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    BrowserModule,
+    C4MainModule
   ],
   exports: [
-    C4MainComponent
+    C4Component
   ],
   declarations: [
-    C4MainComponent
+    C4Component
   ],
-  providers: []
-  // bootstrap: [C4Component]
+  providers: [],
+  bootstrap: [
+    C4Component
+  ]
 })
 export class C4Module { }
