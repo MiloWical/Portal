@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+}
+
+.c4-title-bar {
+    display: flex;
+    flex-grow: 1;
+    min-height: 50px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.c4-title-bar-menu {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 10px;    
+}
