@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { C4MainComponent } from './components/c4-main.component'
+import { C4MainComponent } from '../components/c4-main/c4-main.component'
 
 @NgModule({
   imports: [
